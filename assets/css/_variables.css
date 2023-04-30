@@ -1,0 +1,28 @@
+/*
+    On utilise :root pour rendre les variables "globales"
+    c'est à dire accessible partout dans le document.
+    On peut aussi associer une variable à tel ou tel élèment, 
+    mais sa valeur ne sera définie qu'à l'interieur de l'élement
+*/
+
+:root {
+
+    --unit: 16px;
+    --lineHeight: 1.4em;
+
+    --primaryColor: #0c2461;
+    --secondaryColor: #1b9d2f;
+    --darkColor: #14213d;
+    --lightColor: #fad390;
+    
+}
+
+
+@media (min-width: 1600px) {
+
+    :root {
+        --unit: 24px;
+        --lineHeight: 2em;
+    }
+
+}
